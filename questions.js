@@ -22,7 +22,7 @@ questions =  [
     {"id": 20, "question": "Stan/PA were elected because they were the best candidates on the ballot.", "effects": {"pop": 1}},
     {"id": 21, "question": "Henry should have been convicted of voter fraud by the Supreme Court.", "effects": {"for": -1}},
     {"id": 22, "question": "The idea of Regional Courts is flawed.", "effects": {"soc": -1}},
-    {"id": 23, "question": "I voted for Niko/Wooub over Panda/Pyro in the June 3rd-4th election.", "effects": {"pop": -1}},
+    {"id": 23, "question": "Niko/Wooub were better candidates than Panda/Pyro in the June 3rd-4th election.", "effects": {"pop": -1}},
     {"id": 24, "question": "We should reform systems that can be better, even if they are working fine.", "effects": {"for": 1}},
     {"id": 25, "question": "The House of Representatives should become a legislative body for all bills.", "effects": {"soc": 1}},
     {"id": 26, "question": "We should elect newer Mock Government members rather than older ones.", "effects": {"pop": 1}}
