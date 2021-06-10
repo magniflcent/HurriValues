@@ -10,7 +10,7 @@ questions =  [
     {"id": 8, "question": "Staff members are favored to be voted into public positions.", "effects": {"pop": 1}},
     {"id": 9, "question": "The NGEC should stay private.", "effects": {"for": -1}},
     {"id": 10, "question": "The electoral voting system has failed without any way of redemption.", "effects": {"soc": -1}},
-    {"id": 11, "question": "Staff members should be allowed to run for public positions without restraint.", "effects": {"pop": -1}}
+    {"id": 11, "question": "Staff members should be allowed to run for public positions without restraint.", "effects": {"pop": -1}},
     {"id": 12, "question": "Change should be the top focus of those in the White House.", "effects": {"for": 1}},
     {"id": 13, "question": "More pre-reset parts of the server should be added.", "effects": {"soc": 1}},
     {"id": 14, "question": "I align with the Independent People's Party more than the Commune Party.", "effects": {"pop": 1}},
