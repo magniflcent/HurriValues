@@ -19,9 +19,9 @@
     
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        x_axis  = parseFloat(urlParams.get("right"))
-        y_axis  = parseFloat(urlParams.get("up"))
-        z_axis  = parseFloat(urlParams.get("scaleUp"))
+        x_axis  = parseFloat(urlParams.get("mod"))
+        y_axis  = parseFloat(urlParams.get("alz"))
+        z_axis  = parseFloat(urlParams.get("pop"))
     
         window.onload = function() {
             var background = document.getElementById("background");
