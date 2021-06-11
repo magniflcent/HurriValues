@@ -27,7 +27,7 @@ questions =  [
     {"id": 25, "question": "The House of Representatives should become a legislative body for all bills.", "effects": {"soc": 1}},
     {"id": 26, "question": "We should elect newer Mock Government members rather than older ones.", "effects": {"pop": 1}},
     {"id": 27, "question": "Stability should be the top priority of any administration.", "effects": {"for": -1}},
-    {"id": 28, "question": "The popular vote system has shown to be the only effective way of determining a winner in elections.", "effects": {"soc": -1}},
+    {"id": 28, "question": "The popular vote system has shown to be the only effective voting system.", "effects": {"soc": -1}},
     {"id": 29, "question": "Voting for someone just because they are new is harmful to the Mock Government.", "effects": {"pop": -1}},
     {"id": 30, "question": "We should consider term limits for Justices and Judges.", "effects": {"for": 1}},
     {"id": 31, "question": "We need to provide and utilize monetary institutions.", "effects": {"soc": 1}},
