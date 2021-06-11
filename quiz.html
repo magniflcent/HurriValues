@@ -127,7 +127,7 @@
         var args = '?';
         for (const i in Object.keys(pct)) {
             effectName = Object.keys(pct)[i]
-            args += `${effectName}=${pct[effectName]*1.25}`
+            args += `${effectName}=${pct[effectName]*1}`
 
             var cycle = parseInt(i)
             if (cycle+1 !== Object.keys(pct).length) {
