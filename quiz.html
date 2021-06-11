@@ -162,7 +162,7 @@
             if (answers[id] !== null) {
                 for (const effectName in questionsObject[id].effects) {
                     max[effectName] += Math.abs(questionsObject[id].effects[effectName]);
-                    score[effectName] += answers[id]*questionsObject[id].effects[effectName] * 2;
+                    score[effectName] += answers[id]*questionsObject[id].effects[effectName];
                 }
             }
         }
