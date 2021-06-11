@@ -25,5 +25,8 @@ questions =  [
     {"id": 23, "question": "Niko/Wooub were better candidates than Panda/Pyro in the June 3rd-4th election.", "effects": {"pop": -1}},
     {"id": 24, "question": "We should reform systems that can be better, even if they are working fine.", "effects": {"for": 1}},
     {"id": 25, "question": "The House of Representatives should become a legislative body for all bills.", "effects": {"soc": 1}},
-    {"id": 26, "question": "We should elect newer Mock Government members rather than older ones.", "effects": {"pop": 1}}
+    {"id": 26, "question": "We should elect newer Mock Government members rather than older ones.", "effects": {"pop": 1}},
+    {"id": 27, "question": "Stability should be the top priority of any administration.", "effects": {"for": -1}},
+    {"id": 28, "question": "We should look into implementing Ranked Choice Voting for elections.", "effects": {"soc": -1}},
+    {"id": 29, "question": "Voting on someone just because they are new is harmful to the Mock Government.", "effects": {"pop": -1}},
 ];
