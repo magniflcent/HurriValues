@@ -19,9 +19,9 @@
     
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        x_axis  = parseFloat(urlParams.get("for")) * 2
-        y_axis  = parseFloat(urlParams.get("soc")) * 2
-        z_axis  = parseFloat(urlParams.get("pop")) * 2
+        x_axis  = parseFloat(urlParams.get("for") * 2)
+        y_axis  = parseFloat(urlParams.get("soc") * 2)
+        z_axis  = parseFloat(urlParams.get("pop") * 2)
     
         window.onload = function() {
             var background = document.getElementById("background");
