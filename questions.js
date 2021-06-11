@@ -34,5 +34,5 @@ questions =  [
     {"id": 32, "question": "We should have more newer Mock Government members in the cabinet.", "effects": {"pop": 2}},
     {"id": 33, "question": "Court discussion channels should be private.", "effects": {"for": -2}},
     {"id": 34, "question": "Regional rights do not need to be expanded.", "effects": {"soc": -2}},
-    {"id": 35, "question": "Those who joined earlier in the Mock Government's history have no advantage over those who joined later.", "effects": {"pop": -1}},
+    {"id": 35, "question": "Those who joined earlier in the Mock Government's history have no advantage over those who joined later.", "effects": {"pop": -2}},
 ];
