@@ -127,7 +127,7 @@
         var args = '?';
         for (const i in Object.keys(pct)) {
             effectName = Object.keys(pct)[i]
-            args += `${effectName}=${pct[effectName]}`
+            args += `${effectName}=${pct[effectName]*2}`
 
             var cycle = parseInt(i)
             if (cycle+1 !== Object.keys(pct).length) {
@@ -135,7 +135,7 @@
             }
         }
         //return;
-        location.href = ((window.location.hostname == "sapplyvalues.github.io") ? `feedback.html` : `results.html`) + args * 2
+        location.href = ((window.location.hostname == "sapplyvalues.github.io") ? `feedback.html` : `results.html`) + args
 
     }
 
