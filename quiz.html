@@ -173,7 +173,7 @@
             effectName = Object.keys(max)[i]
 
             if (max[effectName] > 0) {
-                pct[effectName] = (Math.round((score[effectName]*10/max[effectName]) * 200) / 100).toFixed(2);
+                pct[effectName] = (Math.round((score[effectName]*10/max[effectName]) * 100) / 100).toFixed(2);
             } else {
                 pct[effectName] = 0
             }
