@@ -19,9 +19,8 @@
     
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        x_axis  = parseFloat(urlParams.get("for"))
-        y_axis  = parseFloat(urlParams.get("soc"))
-        z_axis  = parseFloat(urlParams.get("pop"))
+        x_axis  = parseFloat(urlParams.get("inn"))
+        y_axis  = parseFloat(urlParams.get("wee"))
     
         window.onload = function() {
             var background = document.getElementById("background");
@@ -41,20 +40,11 @@
             dot.fill();
             dot.stroke();
 
-            var line = c.getContext("2d");
-            line.beginPath();
-            line.moveTo(1500, 1145 - (1000 * (z_axis + 10)/20));
-            line.lineTo(1650, 1145 - (1000 * (z_axis + 10)/20));
-            line.lineWidth = 10;
-            line.strokeStyle = "red";
-            line.stroke();
-
             ctx.font="50px Montserrat"
             ctx.textAlign="center"
             ctx.fillStyle="#222222"
             ctx.fillText("Moderate / Forwardist Axis (x): " + x_axis, 725, 1375)
             ctx.fillText("Alianza / Social Technocrat Axis (y): " + y_axis, 725, 1450)
-            ctx.fillText("Establishment / Populist Axis (z): " + z_axis, 725, 1525)
             ctx.textAlign="right"
             ctx.font="30px Montserrat"
             ctx.fillText("pyroblocks.github.io/MGValues.github.io", 1820, 1560)
