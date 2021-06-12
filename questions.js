@@ -7,5 +7,14 @@ questions =  [
     {"id": 5, "question": "The National Weather Service needs more funding.", "effects": {"inn": 1}},
     {"id": 6, "question": "April 12th, 2020 deserved to be categorized as high risk.", "effects": {"wee": 1}},
     {"id": 7, "question": "El Reno was EF5 but didn't cause EF5 damage.", "effects": {"wee": 1}},
-    {"id": 8, "question": "The National Weather Service should go back to the Fujita Scale.", "effects": {"inn": -1}}
+    {"id": 8, "question": "The National Weather Service should go back to the Fujita Scale.", "effects": {"inn": -1}},
+    {"id": 9, "question": "The National Weather Service shouldn't use Twitter.", "effects": {"inn": -1}},
+    {"id": 10, "question": "The SPC overhyped April 6th 2006 Day 2 risk.", "effects": {"wee": -1}},
+    {"id": 11, "question": "Wx Twitter is full of weenies.", "effects": {"wee": -1}},
+    {"id": 12, "question": "60 significant hail should be modified to high risk.", "effects": {"inn": 1}},
+    {"id": 13, "question": "April 27th, 2011 was the worst tornado outbreak in modern times.", "effects": {"inn": 1, "wee": -1}},
+    {"id": 14, "question": "An April 27th, 2011 event will happen every 10 years.", "effects": {"wee": 1}},
+    {"id": 15, "question": "The SPC should go back to old outlook formats.", "effects": {"inn": -1}},
+    {"id": 16, "question": "Weenies are weenies because of some Youtubers.", "effects": {"wee": -1}},
+    {"id": 17, "question": "I am smart.", "effects": {"wee": -1}}
 ];
