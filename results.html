@@ -21,6 +21,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         x_axis  = parseFloat(urlParams.get("inn"))
         y_axis  = parseFloat(urlParams.get("wee"))
+	z_axis = parseFloat(urlParams.get("null"))
     
         window.onload = function() {
             var background = document.getElementById("background");
