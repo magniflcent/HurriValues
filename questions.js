@@ -32,7 +32,7 @@ questions =  [
 	{"id": 30, "question": "I would be excited if a hurricane were to hit me.", "effects": {"wee": 1}},
 	{"id": 31, "question": "People should be taught hurricane safety at a young age to mitigate future loss of life.", "effects": {"inn": 1, "wee": -1}},
 	{"id": 32, "question": "Storms should only be tracked by the NHC if they are going to make landfall somewhere.", "effects": {"inn": -1}},
-	{"id": 33, "question": "I don't think hurricanes are impactful as people say they are.", "effects": {"wee": 1}},
+	{"id": 33, "question": "I don't think hurricanes are as impactful as people say they are.", "effects": {"wee": 1}},
 	{"id": 34, "question": "I know when to and when not to joke about a hurricane and its potential impacts.", "effects": {"wee": -1}},
 	{"id": 35, "question": "Invests should be warned to give people who could potentially be impacted a very early warning.", "effects": {"inn": 1}}
 ];
