@@ -34,5 +34,5 @@ questions =  [
 	{"id": 32, "question": "Storms should only be tracked by the NHC if they are going to make landfall somewhere.", "effects": {"inn": -1}},
 	{"id": 33, "question": "I don't think hurricanes are impactful as people say they are.", "effects": {"wee": 1}},
 	{"id": 34, "question": "I know when to and when not to joke about a hurricane and its potential impacts.", "effects": {"wee": -1}},
-	{"id": 35, "question": "Invests should be warned to give people who could potentially be impacted a very early warning.", "effects": {"inn": 1}},
+	{"id": 35, "question": "Invests should be warned to give people who could potentially be impacted a very early warning.", "effects": {"inn": 1}}
 ];
